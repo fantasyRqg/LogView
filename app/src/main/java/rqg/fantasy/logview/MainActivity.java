@@ -19,7 +19,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
 
-    // Used to load the 'native-lib' library on application startup.
+    // Used to load the 'native-lib' library on application startup .
     static {
         System.loadLibrary("native-lib");
     }
